@@ -173,7 +173,7 @@
         var xhr = $.ajax({
             //url: connectionUri,
             headers: {
-                'EM-API-Key': 'rClgeTw1LnvMAlvEg5KZv5mMGK2qAU0x5o6KlxK3EPRhIBjK0TLNv48wZAyZ1AfF'
+                'EM-API-Key': 'ENTER YOUR KEY'
             },
             url: "https://openair-california.airtrfx.com/route-service/v3/ua/routes/source/TRFX",
             dataType: 'json',
