@@ -32,7 +32,7 @@
 
         $("#getvenuesbutton").click(function () {
             console.log("#getvenuesbutton.click()");
-            tableau.connectionName = "MS Route [V3]";
+            tableau.connectionName = "MS Route [UA]";
             tableau.submit();
         });
     });
@@ -151,7 +151,7 @@
 
         var tableInfo = {
             id: "MSRouteTable",
-            alias:"V3-Routes",
+            alias:"UA-Routes",
             columns: cols
         }
 
